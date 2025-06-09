@@ -1,4 +1,5 @@
 # KasaModo
+
 A seed for a modular DIY simple tools Shared Planet Business House.
 
 The name is a word play on 'Kasa' from Spanish for 'house' or 'home' and 'Modo' eluding to 'modular', 'modify', 'mode' like state of mind or a way of tackling a task etc.
@@ -19,7 +20,8 @@ And maybe 'KasaModo' sounding like 'Quasimodo' is a positivbe thing? Quasimodo i
 
 The chatGPT provided the following 'reasoning' on 'KasaModo' vs 'Quasimodo' being a 'good' thing.
 
-```The resemblance between "Kasamodo" and "Quasimodo" can actually be a good and powerful thing, depending on how you frame it. Here's why:
+```sh
+The resemblance between "Kasamodo" and "Quasimodo" can actually be a good and powerful thing, depending on how you frame it. Here's why:
 
 **Resonant Themes You Can Embrace**
 
