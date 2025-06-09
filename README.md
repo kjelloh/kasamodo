@@ -1,10 +1,44 @@
-# kompladomo
-A seed for a modular DIY simple tools Shared Planet Business House (From Esperanto - Komuno Planedo Domo)
+# KasaModo
+A seed for a modular DIY simple tools Shared Planet Business House.
 
-Alternative names:
+The name is a word play on 'Kasa' from Spanish for 'house' or 'home' and 'Modo' eluding to 'modular', 'modify', 'mode' like state of mind or a way of tackling a task etc.
 
-* KasaModo
-* KasaDomo (but would be a toughtology)
-* KomoDomo
-* Planedomo
-* ...
+The name may also lend itself to 'kasamodify' as taking the design of an existing house and make it fullfill the goals of being a 'kasamodo'.
+
+And maybe 'KasaModo' sounding like 'Quasimodo' is a positivbe thing? Quasimodo is the main character in The Hunchback of Notre-Dame (original French title: Notre-Dame de Paris) by Victor Hugo.
+
+The chatGPT provided the following 'reasoning' on 'KasaModo' vs 'Quasimodo' being a 'good' thing.
+
+```The resemblance between "Kasamodo" and "Quasimodo" can actually be a good and powerful thing, depending on how you frame it. Here's why:
+
+**Resonant Themes You Can Embrace**
+
+1. Misjudged from the Outside, Beautiful Within
+
+* Quasimodo was seen as monstrous because of his appearance, but he had a noble heart.
+* Kasamodo, as a modular house, might not look like a conventional house — but it's smart, efficient, and deeply human-centered.
+* This parallel can position Kasamodo as an underdog hero of housing — humble, rugged, but full of heart.
+
+2. Isolation to Belonging
+
+*Quasimodo longed for acceptance and a place to belong.
+* Kasamodo offers that exact thing: a home that can be moved, adapted, and owned by people often pushed to the margins (e.g., nomads, minimalists, eco-conscious DIYers).
+
+3. Cathedral vs. Module
+
+* Quasimodo lived in the Notre-Dame Cathedral, a massive, ancient symbol.
+* Kasamodo could be framed as the modern-day, human-scale sanctuary — a modular “cathedral of the self.”
+
+**Possible Risks (and How to Flip Them)**
+* The name similarity might lead some to think of Quasimodo's deformity or tragedy, but you can reclaim that:
+* Use language like: “Kasamodo — beautiful where it counts.”
+* Or: “Not conventional. Just essential.”
+```
+
+Alternative names that was considered (and still be applied for related concepts?):
+* Kompladomo (From Esperanto - Komuno Planedo Domo)
+* KasaDomo (But kind of a toughtology)
+* KomoDomo (From esperanto Komuno Domo as 'shared home')
+* Planedomo (variant from Esperanto - Komuno Planedo Domo)
+* Hejmodo (From esperanto Hejmo for 'home')
+* Hejmo (Esperanto for 'a home' straight off)
