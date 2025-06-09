@@ -3,7 +3,17 @@ A seed for a modular DIY simple tools Shared Planet Business House.
 
 The name is a word play on 'Kasa' from Spanish for 'house' or 'home' and 'Modo' eluding to 'modular', 'modify', 'mode' like state of mind or a way of tackling a task etc.
 
-The name may also lend itself to 'kasamodify' as taking the design of an existing house and make it fullfill the goals of being a 'kasamodo'.
+Furtheer see [Kasamodo name rational](#kasamodo-name-rational)
+
+# KasaModo and Freecad
+
+See [kasamodo freecad FCStd-files](src/freecad/README.md)
+
+# Kasamodo name rational
+
+The name is a word play on 'Kasa' from Spanish for 'house' or 'home' and 'Modo' eluding to 'modular', 'modify', 'mode' like state of mind or a way of tackling a task etc.
+
+The name may lend itself to 'kasamodify' as taking the design of an existing house and make it fullfill the goals of being a 'kasamodo'.
 
 And maybe 'KasaModo' sounding like 'Quasimodo' is a positivbe thing? Quasimodo is the main character in The Hunchback of Notre-Dame (original French title: Notre-Dame de Paris) by Victor Hugo.
 
