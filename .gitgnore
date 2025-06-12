@@ -1,3 +1,0 @@
-# Ignore FreeCAD backup files
-src/freecad/kasamodo_0/kasamodo_0.20250609-222325.FCBak
-src/freecad/*/*.FCBak

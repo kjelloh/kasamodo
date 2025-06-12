@@ -1,5 +1,12 @@
 # kasamodo_0
 
+Kasamodo 0 is an outer frame with an inner 'hanging' living apartment (box).
+
+![](image.png)
+*kasamodo 0 outer frame and inner living apartment*
+
+## Freecad version
+
 This is the very first CAD model in the casamodo git repo.
 
 The project file is 'kasamodo_0.FCStd' for FreeCad.
