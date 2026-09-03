@@ -1,2 +1,6 @@
+
+# Ignore cmake build folder
+build/
+
 # Ignore FreeCAD backup files
 *.FCBak
