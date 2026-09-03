@@ -29,3 +29,7 @@ cmake --build build
 ```sh
 ./build/kasamodo_app --help
 ```
+
+## LICENSE
+
+All source code is licenced as defined by [Apps LICENSE](../../apps/LICENSE).
