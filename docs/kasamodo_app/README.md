@@ -32,4 +32,4 @@ cmake --build build
 
 ## LICENSE
 
-All source code is licenced as defined by [Apps LICENSE](../../apps/LICENSE).
+All source code is licenced as defined by [Apps LICENSE](../../apps/LICENCE.txt).
