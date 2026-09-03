@@ -6,28 +6,13 @@ The name is a word play on 'Kasa' from Spanish for 'house' or 'home' and 'Modo' 
 
 Furtheer see [Kasamodo name rational](#kasamodo-name-rational)
 
-# Repository structure
-
-```
-.
-├── LICENSE
-├── README.md       // Links to index.md
-├── _config.yml
-├── index.md        // Links to src/README.md
-└── src             // Root for source tool files (E.g. FreeCad FCStd-files etc.)
-    ├── README.md   // Links to all other markdown docs
-    └── freecad
-        ├── README.md
-        ...
-```
-
 # Github Pages
 
-BEWARE: It seems Github Pages will not apply markdown to html transformations on files in the root? Therefore the top index.md links src/README.md.
+BEWARE: It seems Github Pages will not apply markdown to html transformations on files in the root? Therefore the top index.md links cad/README.md.
 
 # KasaModo and Freecad
 
-See [kasamodo freecad FCStd-files](src/freecad/README.md)
+See [kasamodo freecad FCStd-files](freecad/README.md)
 
 # Kasamodo name rational
 
