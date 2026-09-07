@@ -36,7 +36,7 @@ def repository_name(url: str) -> str:
 
     return name
 
-def run_git(*args: str, cwd: Path | None = None) -> None:
+def run_git(*args: str, root_path: Path | None = None) -> None:
     """Run a git command and fail if it returns a non-zero exit code."""
     command = ["git", *args]
 
@@ -44,7 +44,7 @@ def run_git(*args: str, cwd: Path | None = None) -> None:
 
     subprocess.run(
         command,
-        cwd=cwd,
+        cwd=root_path,
         check=True,
     )
 
@@ -63,7 +63,7 @@ def sync_repository(repo: dict) -> None:
         run_git(
             "clone",
             url,
-            str(destination),
+            root_path = WORKSPACE,
         )
 
     else:
@@ -77,7 +77,6 @@ def sync_repository(repo: dict) -> None:
 
         run_git(
             "pull",
-            "--ff-only",
             cwd=destination,
         )
 
