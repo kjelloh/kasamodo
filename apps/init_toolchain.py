@@ -53,7 +53,7 @@ def run_git(*args: str, root_path: Path | None = None) -> None:
         check=True,
     )
 
-def sync_repository(repo: dict) -> None:
+def sync_with_upstream(repo: dict) -> None:
     """Clone or update one external repository."""
     url = repo["url"]
 
@@ -81,11 +81,12 @@ def sync_repository(repo: dict) -> None:
         print(f"Updating {name}...")
 
         run_git(
-            "pull",
-            root_path =destination,
+            "fetch",
+            "origin",
+            root_path = destination,
         )
 
-def update_external_source(repo: dict) -> None:
+def update_consumables(repo: dict) -> None:
     """Update the sources consumed from an external repository."""
 
     repo_name = repository_name(repo["url"])
@@ -133,8 +134,8 @@ def main() -> int:
     try:
 
       for repo in EXTERNAL_REPOS:
-          sync_repository(repo)
-          update_external_source(repo)
+          sync_with_upstream(repo)
+          update_consumables(repo)
 
     except subprocess.CalledProcessError as e:
         print(
