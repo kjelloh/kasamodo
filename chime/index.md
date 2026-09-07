@@ -1,4 +1,5 @@
 * [Consider a Kasamodo version of the House-in-a-green-house Swedish Atri House in Sikhall Sweden?](64d5586f/chime.md)
 * [idé till kasamodo lisens](7b2a0cbf/chime.md)
+* [Consider a git clone/pull external source dependancies mechanism as a python script?](99447132/chime.md)
 * [Consider to use off-the-shelf available counter flow heat exchanger for Kasamodo ventilation heat-exchange?](ceaba322/chime.md)
 * [Överväg metoder för att kunna beräkna belastning och deformation på hus-stomme på fyra hörn-plintar?](ec0c2f75/chime.md)
