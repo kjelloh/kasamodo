@@ -1,4 +1,7 @@
 
+# Ignore external source code (dependencies) git repos
+external_git_repos_workspace
+
 # Ignore cmake build folder
 build/
 

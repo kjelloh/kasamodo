@@ -1,17 +1,25 @@
 # Tänker på hur jag kan bygga mitt eget 'kasamodo'
 
 * [chimes](../chime/index.md)
+* [Top README](../README.md)
+* [Top Index](../index.md)
 
 ## 20260907
 
-I wathced youtube video on a Swedish 'house inside a green house'. I have seen the concept before amd now I wonder if we should consider a kasamodo version of this concept?
+I watched youtube video on a Swedish 'house inside a green house'. I have seen the concept before amd now I wonder if we should consider a kasamodo version of this concept?
 
 * I made [Consider a Kasamodo version of the House-in-a-green-house Swedish Atri House in Sikhall Sweden?](../chime/64d5586f/chime.md)
 
+I am now working on making [init_toolchain.py](../apps/init_toolchain.py) to clone the Eigen C++ library for consumption by the kasamodo_app.
+
+* [Eigen home](https://libeigen.gitlab.io)
+  * ``` git clone https://gitlab.com/libeigen/eigen.git ```
+
+I created init_toolchain.py with chatGPT vibe-coding and edits (seems to work ok)
 
 ## 20260906
 
-So I want to do a test shot at making the kasamodo app solve for a stiffness matrix using the C++ Eigen library.
+So I want to do a test-shot at making the kasamodo app solve for a stiffness matrix using the C++ Eigen library.
 
 * I want to try a python script that git clones Eigen and populate build environment with headert files and paths
   * It seems I should provide a -I directive to the compiler?
