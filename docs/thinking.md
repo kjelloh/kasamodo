@@ -2,6 +2,24 @@
 
 * [chimes](../chime/index.md)
 
+## 20260907
+
+I wathced youtube video on a Swedish 'house inside a green house'. I have seen the concept before amd now I wonder if we should consider a kasamodo version of this concept?
+
+* I made [Consider a Kasamodo version of the House-in-a-green-house Swedish Atri House in Sikhall Sweden?](../chime/64d5586f/chime.md)
+
+
+## 20260906
+
+So I want to do a test shot at making the kasamodo app solve for a stiffness matrix using the C++ Eigen library.
+
+* I want to try a python script that git clones Eigen and populate build environment with headert files and paths
+  * It seems I should provide a -I directive to the compiler?
+  * And include with ""?
+  * The C++ preprocessor seems to search for #include "some_file" in local folder structure and listed include paths? 
+  * [GCC search paths](https://gcc.gnu.org/onlinedocs/cpp/Search-Path.html)
+  * Eigen seem to propose ```#include <>``` [Eigen - Getting Started](https://libeigen.gitlab.io/eigen/docs-5.0/GettingStarted.html)
+
 ## 20260903
 
 So I have discovered I actually have two kasamodo git respos.
@@ -11,7 +29,7 @@ So I have discovered I actually have two kasamodo git respos.
 
 To I decided to merge what I have locally to the Github hosted kasamodo repo.
 
-* First I need to celan up and commit the C++ console APP stuf I have initiated so far.
+* First I need to clean up and commit the C++ console app stuf I have initiated so far.
 * Then I need a way to bit-by-bit move what I have in the local repo to the Github hosted repo and commit it there.
 
 I don't think it is worth it to figure out a git-way of merging commits made to two git repos?
