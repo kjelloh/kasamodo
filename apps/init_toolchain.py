@@ -10,12 +10,17 @@ from pathlib import Path
 from urllib.parse import urlparse
 import subprocess
 import sys
-
+import shutil
 
 # Hard coded list of repos 'we' depend on.
 EXTERNAL_REPOS = [
     {
         "url": "https://gitlab.com/libeigen/eigen.git",
+        "consume": [
+            {
+                "source": "Eigen/",
+            },
+        ],
     },
 ]
 
@@ -77,9 +82,48 @@ def sync_repository(repo: dict) -> None:
 
         run_git(
             "pull",
-            cwd=destination,
+            root_path =destination,
         )
 
+def update_external_source(repo: dict) -> None:
+    """Update the sources consumed from an external repository."""
+
+    repo_name = repository_name(repo["url"])
+    repo_root = WORKSPACE / repo_name
+
+    for item in repo.get("consume", []):
+        source = Path(item["source"])
+
+        source_path = repo_root / source
+        destination_path = Path("./src/foreign") / source
+
+        if not source_path.is_dir():
+            raise RuntimeError(
+                f"Consumed source does not exist or is not a directory: "
+                f"{source_path}"
+            )
+
+        # Ensure our copy is clean (no stale files)
+        if destination_path.exists():
+            shutil.rmtree(destination_path)
+        
+        print(
+            f"Copying external source: "
+            f"{source_path} -> {destination_path}"
+        )
+
+        if destination_path.exists():
+            shutil.rmtree(destination_path)
+
+        destination_path.parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        shutil.copytree(
+            source_path,
+            destination_path,
+        )
 
 def main() -> int:
 
@@ -87,8 +131,10 @@ def main() -> int:
     #     Note: Clones to a local folder 'external_git_repos_workspace''
     
     try:
-        for repo in EXTERNAL_REPOS:
-            sync_repository(repo)
+
+      for repo in EXTERNAL_REPOS:
+          sync_repository(repo)
+          update_external_source(repo)
 
     except subprocess.CalledProcessError as e:
         print(
