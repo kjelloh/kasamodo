@@ -1,5 +1,14 @@
 # Consider a git clone/pull external source dependancies mechanism as a python script?
 
+## 20260913
+
+So I think it is time to give up on the 'raw' git-clone and consume dependancy manager for now.
+
+* So how was it again I init a conan package manager cosumer?
+* I think I documented this in some tha-repo did I not?
+  * Well, I found some notes in my 'bang' Github repo
+  * It seems to rely on 'conan new cmake_exe ...' template?
+
 ## 20260907
 
 I am now working on making [init_toolchain.py](../apps/init_toolchain.py) to clone the Eigen C++ library for consumption by the kasamodo_app.
