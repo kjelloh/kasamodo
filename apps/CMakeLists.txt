@@ -1,10 +1,9 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.15)
+project(kasamodo_app CXX)
 
-project(kasamodo_app VERSION 0.1.0 LANGUAGES CXX)
 
-add_executable(kasamodo_app
-	src/main.cpp
-)
+
+add_executable(kasamodo_app src/kasamodo_app.cpp src/main.cpp)
 
 # Apply cmake mapping of C++ language features to compiler specific arguments
 # kasamodo_app: Most warnings + warnings as errors

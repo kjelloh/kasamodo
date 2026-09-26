@@ -4,6 +4,42 @@
 * [Top README](../README.md)
 * [Top Index](../index.md)
 
+## 20260926
+
+Time to introduce conan package manager for kasamodo app.
+
+* It seems my 'bang' git repo has some clues on how to initiate a conan consumer?
+* I searched for where I have documented 'conan new ...'
+
+```sh
+kjell-olovhogdahl@MacBook-Pro ~/Documents/GitHub % grep -Fn 'conan new cmake_exe' **/*.md
+advent_of_code_2025/docs/README.md:54:Scaffholding has been created with 'conan new cmake_exe ...'
+advent_of_code_2025/docs/README.md:57:kjell-olovhogdahl@MacBook-Pro ~/Documents/GitHub/advent_of_code_2025 % conan new cmake_exe -d name=aoc25 -d version=1.0
+bang/docs/README.md:67:* Conan package manager support and directory structure (from 'conan new cmake_exe ...' template)
+cadance/README.md:16:### conan new cmake_exe -d name=cadance -d version=0.0
+cadance/README.md:21:kjell-olovhogdahl@MacBook-Pro ~/Documents/GitHub/cadance % conan new cmake_exe -d name=cadance -d version=0.0
+cpp_gfx_tapas/tapas_0/doc/README.md:21:##  conan new cmake_exe -d name=tapas_0 -d version=0.0
+cpptha/docs/README.md:114:## conan new cmake_exe -d name=cpptha -d version=0.0
+cpptha/docs/README.md:119:kjell-olovhogdahl@MacBook-Pro ~/Documents/GitHub/cpptha % conan new cmake_exe -d name=cpptha -d version=0.0
+kasamodo/chime/99447132/chime.md:10:  * It seems to rely on 'conan new cmake_exe ...' template?
+kjell-olovhogdahl@MacBook-Pro ~/Documents/GitHub % 
+```
+
+* advent_of_code_2025/docs/README.md:54:Scaffholding has been created with 'conan new cmake_exe ...'
+  * advent_of_code_2025/docs/README.md:57:kjell-olovhogdahl@MacBook-Pro ~/Documents/GitHub/advent_of_code_2025 % conan new cmake_exe -d name=aoc25 -d version=1.0
+* bang/docs/README.md:67:* Conan package manager support and directory structure (from 'conan new cmake_exe ...' template)
+* cadance/README.md:16:### conan new cmake_exe -d name=cadance -d version=0.0
+  * cadance/README.md:21:kjell-olovhogdahl@MacBook-Pro ~/Documents/GitHub/cadance % conan new cmake_exe -d name=cadance -d version=0.0
+* cpp_gfx_tapas/tapas_0/doc/README.md:21:##  conan new cmake_exe -d name=tapas_0 -d version=0.0
+* cpptha/docs/README.md:114:## conan new cmake_exe -d name=cpptha -d version=0.0
+  * cpptha/docs/README.md:119:kjell-olovhogdahl@MacBook-Pro ~/Documents/GitHub/cpptha % conan new cmake_exe -d name=cpptha -d version=0.0
+* kasamodo/chime/99447132/chime.md:10:  * It seems to rely on 'conan new cmake_exe ...' template?
+  * [Consider a git clone/pull external source dependancies mechanism as a python script?](../chime/99447132/chime.md)
+
+OK. So The command 'conan new cmake_exe -d name=kasamodo_app -d version=0.0' it is!
+
+* [Conan 2.0: conan new](https://docs.conan.io/2/reference/commands/new.html)
+
 ## 20260907
 
 I watched youtube video on a Swedish 'house inside a green house'. I have seen the concept before amd now I wonder if we should consider a kasamodo version of this concept?

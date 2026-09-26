@@ -1,5 +1,9 @@
 # Consider a git clone/pull external source dependancies mechanism as a python script?
 
+## 20260926
+
+Replaced with 'conan new' generated conan package manager consumer scaffolding.
+
 ## 20260913
 
 So I think it is time to give up on the 'raw' git-clone and consume dependancy manager for now.

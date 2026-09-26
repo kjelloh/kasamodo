@@ -1,7 +1,6 @@
 
-# Ignore external source code (dependencies) git repos
-external_git_repos_workspace
-foreign
+# Ignore vscode dot-folder
+.vscode
 
 # Ignore cmake build folder
 build/
