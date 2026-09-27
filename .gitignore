@@ -7,3 +7,14 @@ build/
 
 # Ignore FreeCAD backup files
 *.FCBak
+
+# Ignore init_tool_chain.zsh meachism file(s)
+cmake_preset.txt
+
+# CMake generated/temporaries
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+CMakeUserPresets.json
+CMakeCache.txt

@@ -16,6 +16,25 @@ All source code is licenced as defined by [Apps LICENSE](../../apps/LICENCE.txt)
 
 ## Build
 
+* Update dependancies wit helper init_tool_chain.zsh
+
+```sh
+./init_tool_chain.zsh
+```
+
+  * Does ```conan install . --settings=compiler.cppstd=23 --settings=build_type=$BUILD_TYPE --build=missing````
+  * Does ```cmake --preset $PRESET_NAME```
+  * By mapping:
+
+```sh
+case $BUILD_TYPE in
+    "Debug") PRESET_NAME="conan-debug" ;;
+    "Release") PRESET_NAME="conan-release" ;;
+    "RelWithDebInfo") PRESET_NAME="conan-relwithdebinfo" ;;
+    "MinSizeRel") PRESET_NAME="conan-minsizerel" ;;
+    *) 
+```
+
 * Generate: CMakeLists.txt -> Build (Make) Configuration.
 
 ```sh
@@ -27,7 +46,6 @@ All source code is licenced as defined by [Apps LICENSE](../../apps/LICENCE.txt)
 ```sh
 cmake --build build
 ```
-
 
 * Run target cpp_habilis
 
